@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  color: #fffffe;
+  background-color: #0f0e17;
+}
+
+.container {
+  margin: 1rem auto;
+  width: 80%;
+}
+
+h1 {
+  font-size: 5rem;
+  margin: 1rem 0;
+}
+
+h2 {
+  font-size: 3.5rem;
+  margin: 1rem 0;
+}
+
+h3 {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+p,
+li,
+a,
+button,
+input {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+}
+
+input,
+button {
+  font-family: "Barlow", sans-serif;
+}
+
+p {
+  color: #a7a9be;
+}
+
+li {
+  list-style-type: none;
+  padding: 1rem;
+  border: 0.1rem solid #fffffe;
+  border-radius: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #fffffe;
+}
+a:hover {
+  -webkit-text-decoration: 0.1rem #fffffe underline;
+          text-decoration: 0.1rem #fffffe underline;
+}/*# sourceMappingURL=main.css.map */
