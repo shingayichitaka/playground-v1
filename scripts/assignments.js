@@ -15,15 +15,21 @@ if (population > 33) {
   );
 }
 
-const numNeighbours = Number(
-  prompt(`How many neighbours does ${country} have?`)
-);
-console.log(numNeighbours);
+// const numNeighbours = Number(
+//   prompt(`How many neighbours does ${country} have?`)
+// );
+// console.log(numNeighbours);
 
-if (numNeighbours === 1) {
-  console.log(`Only 1 border!`);
-} else if (numNeighbours > 1) {
-  console.log("More than 1 border!");
+// if (numNeighbours === 1) {
+//   console.log(`Only 1 border!`);
+// } else if (numNeighbours > 1) {
+//   console.log("More than 1 border!");
+// } else {
+//   console.log(`No borders!`);
+// }
+
+if (language === "English" && population < 50 && isIsland === false) {
+  console.log(`⭐ You should live in ${country}! ⭐`);
 } else {
-  console.log(`No borders!`);
+  console.log(`😭 ${country} does not meet your criteria! 😭`);
 }
