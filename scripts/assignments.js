@@ -7,9 +7,10 @@ let population = 15;
 const isIsland = false;
 const language = "Shona";
 
-console.log(`Half population: ${population / 2}`);
-console.log(++population);
-console.log(population > 6);
-console.log(population < 33);
-
 const description = `${country} is in ${continent}, and its ${population} million people speak ${language}`;
+
+if (population > 33) {
+  console.log(
+    `${country}'s population is ${population - 33} million above average`
+  );
+}
