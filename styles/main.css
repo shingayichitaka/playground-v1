@@ -20,6 +20,13 @@ body {
   width: 80%;
 }
 
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 2rem;
+}
+
 h1 {
   font-size: 5rem;
   margin: 1rem 0;
@@ -67,4 +74,16 @@ a {
 a:hover {
   -webkit-text-decoration: 0.1rem #fffffe underline;
           text-decoration: 0.1rem #fffffe underline;
+}
+
+@media only screen and (max-width: 750px) {
+  .projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .projects li {
+    width: 100%;
+  }
 }/*# sourceMappingURL=main.css.map */
